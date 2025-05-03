@@ -6,7 +6,8 @@ class Count extends React.Component{
     render(){
         return(
             <div>
-<h1>counter:{this.state.counter}</h1>
+                <h1>Counter App</h1>
+<h2>count:{this.state.counter}</h2>
 <button onClick= {()=>{
     this.setState(
         {
